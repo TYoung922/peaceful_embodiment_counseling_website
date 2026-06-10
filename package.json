@@ -1,6 +1,7 @@
 {
   "name": "therapist-website",
   "version": "1.0.0",
+  "homepage": "https://tyoung922.github.io/peaceful_embodiment_counseling_website",
   "description": "A professional therapist website built with React",
   "main": "index.js",
   "scripts": {
@@ -28,4 +29,3 @@
     ]
   }
 }
-

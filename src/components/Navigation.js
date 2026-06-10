@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navigation.css";
+import logo from "../images/green_logo_banner.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,9 +20,9 @@ const Navigation = () => {
       <div className="nav-container">
         <div className="nav-logo">
           <Link to="/" className="logo-link">
-            <img 
-              src="/images/green_logo_banner.png" 
-              alt="Tiffany Larson - Licensed Therapist" 
+            <img
+              src={logo}
+              alt="Tiffany Larson - Licensed Therapist"
               className="logo-image"
             />
           </Link>

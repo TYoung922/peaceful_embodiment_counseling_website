@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import headshot from "../../src/images/headshot.jpeg";
 
 const About = () => {
   return (
@@ -18,10 +19,10 @@ const About = () => {
           <div className="about-text">
             <h2>My Background</h2>
             <p>
-              I am a Licensed Clinical Social Worker in Utah, licensed since 2016. 
-              I work with adults (18+) to help navigate life's challenges, trauma, 
-              and personal growth. My approach combines evidence-based therapeutic 
-              techniques with genuine compassion and understanding.
+              I am a Licensed Clinical Social Worker in Utah, licensed since
+              2016. I work with adults (18+) to help navigate life's challenges,
+              trauma, and personal growth. My approach combines evidence-based
+              therapeutic techniques with genuine compassion and understanding.
             </p>
 
             <h3>License & Credentials</h3>
@@ -31,7 +32,10 @@ const About = () => {
             </ul>
 
             <h3>Therapeutic Modalities</h3>
-            <p>I utilize a variety of evidence-based approaches tailored to your unique needs:</p>
+            <p>
+              I utilize a variety of evidence-based approaches tailored to your
+              unique needs:
+            </p>
             <ul>
               <li>CBT (Cognitive Behavioral Therapy)</li>
               <li>DBT (Dialectical Behavior Therapy)</li>
@@ -62,7 +66,7 @@ const About = () => {
 
           <div className="about-image">
             <img
-              src="/images/headshot.jpeg"
+              src={headshot}
               alt="Tiffany Larson, Licensed Therapist"
               className="therapist-photo"
             />

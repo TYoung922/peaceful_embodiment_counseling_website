@@ -1,0 +1,171 @@
+.contact {
+  min-height: 100vh;
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.contact-header h1 {
+  color: #345463;
+  margin-bottom: 1rem;
+}
+
+.contact-intro {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+
+.contact-info h2 {
+  color: #AFBF73;
+  margin-bottom: 2rem;
+}
+
+.contact-methods {
+  margin-bottom: 3rem;
+}
+
+.contact-method {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #F5F7F0;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.contact-method:hover {
+  transform: translateY(-2px);
+}
+
+.contact-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.contact-method h3 {
+  color: #345463;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.contact-method p {
+  color: #555;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.contact-method span {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.office-hours h3 {
+  color: #AFBF73;
+  margin-bottom: 1rem;
+}
+
+.hours-list {
+  background-color: #DAEDEA;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.hours-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.hours-item:last-child {
+  border-bottom: none;
+}
+
+.hours-item span:first-child {
+  font-weight: 500;
+  color: #345463;
+}
+
+.hours-item span:last-child {
+  color: #666;
+}
+
+.hours-note {
+  margin-top: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+
+.emergency-notice {
+  background-color: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.emergency-notice h3 {
+  color: #856404;
+  margin-bottom: 1rem;
+}
+
+.emergency-notice p {
+  color: #856404;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .contact {
+    padding: 2rem 0;
+  }
+
+  .contact-header {
+    margin-bottom: 2rem;
+  }
+
+  .contact-intro {
+    font-size: 1.1rem;
+  }
+
+  .contact-content {
+    margin-bottom: 2rem;
+  }
+
+  .contact-method {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-icon {
+    font-size: 1.5rem;
+  }
+
+  .office-hours {
+    margin-top: 2rem;
+  }
+
+  .emergency-notice {
+    padding: 1.5rem;
+  }
+}
+
+

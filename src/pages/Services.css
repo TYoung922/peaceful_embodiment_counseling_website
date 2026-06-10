@@ -1,0 +1,261 @@
+.services {
+  min-height: 100vh;
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.services-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.services-header h1 {
+  color: #345463;
+  margin-bottom: 1rem;
+}
+
+.services-intro {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.service-card {
+  background-color: #f5f7f0;
+  padding: 2rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e9ecef;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.service-card h3 {
+  color: #345463;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.service-card p {
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.service-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-card li {
+  padding: 0.5rem 0;
+  color: #555;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.service-card li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #afbf73;
+  font-weight: bold;
+}
+
+.pricing-section {
+  background-color: #daedea;
+  padding: 4rem 0;
+  border-radius: 12px;
+  margin-bottom: 4rem;
+}
+
+.pricing-section h2 {
+  text-align: center;
+  color: #345463;
+  margin-bottom: 3rem;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pricing-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-3px);
+}
+
+.pricing-card h3 {
+  color: #345463;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #345463;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-card p {
+  color: #666;
+  margin: 0;
+}
+
+.insurance-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.insurance-section h3 {
+  color: #345463;
+  margin-bottom: 1rem;
+}
+
+.insurance-note {
+  color: #666;
+  margin: 1rem 0;
+}
+
+.insurance-list {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.insurance-list li {
+  padding: 0.5rem 0;
+  color: #555;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.insurance-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #afbf73;
+  font-weight: bold;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #345463 0%, #afbf73 100%);
+  color: white;
+  border-radius: 12px;
+}
+
+.cta-section h1,
+.cta-section h2,
+.cta-section h3,
+.cta-section h4,
+.cta-section h5,
+.cta-section h6,
+.cta-section p,
+.cta-section span {
+  color: white;
+}
+
+.cta-section h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: white;
+  opacity: 0.95;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-section .btn {
+  background-color: white;
+  color: #345463;
+}
+
+.cta-section .btn:hover {
+  background-color: #daedea;
+  transform: translateY(-2px);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .services {
+    padding: 2rem 0;
+  }
+
+  .services-header {
+    margin-bottom: 2rem;
+  }
+
+  .services-intro {
+    font-size: 1.1rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .service-card {
+    padding: 1.5rem;
+  }
+
+  .pricing-section {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .pricing-card {
+    padding: 1.5rem;
+  }
+
+  .price {
+    font-size: 2rem;
+  }
+
+  .cta-section {
+    padding: 2rem 0;
+  }
+}

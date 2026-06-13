@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/peaceful_embodiment_counseling_website">
       <ScrollToTop />
       <div className="App">
         <Navigation />
@@ -28,5 +28,3 @@ function App() {
 }
 
 export default App;
-
-

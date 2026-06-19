@@ -28,7 +28,7 @@ const Home = () => {
           <h2>Why Choose Professional Therapy?</h2>
           <div className="features-grid">
             <div className="feature-card">
-              <div className="feature-icon">🤝</div>
+              {/* <div className="feature-icon">🤝</div> */}
               <h3>Compassionate Care</h3>
               <p>
                 Experience a safe, non-judgmental environment where you can
@@ -36,7 +36,7 @@ const Home = () => {
               </p>
             </div>
             <div className="feature-card">
-              <div className="feature-icon">🎯</div>
+              {/* <div className="feature-icon">🎯</div> */}
               <h3>Evidence-Based Approach</h3>
               <p>
                 Treatment methods grounded in research and proven therapeutic
@@ -44,7 +44,7 @@ const Home = () => {
               </p>
             </div>
             <div className="feature-card">
-              <div className="feature-icon">🔒</div>
+              {/* <div className="feature-icon">🔒</div> */}
               <h3>Confidential & Secure</h3>
               <p>
                 Your privacy is our priority. All sessions are confidential and
@@ -72,5 +72,3 @@ const Home = () => {
 };
 
 export default Home;
-
-

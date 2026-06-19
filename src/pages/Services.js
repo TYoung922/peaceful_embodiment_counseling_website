@@ -11,28 +11,35 @@ const Services = () => {
           <p className="services-intro">
             I offer a range of therapeutic services designed to support your
             mental health and personal growth. Each service is tailored to meet
-            your individual needs.
+            your individual needs. <br />
+            <strong>Appointments available on Mondays and Saturdays.</strong>
           </p>
         </div>
 
         <div className="services-grid">
           <div className="service-card">
-            <div className="service-icon">🧠</div>
+            {/* <div className="service-icon">🧠</div> */}
             <h3>Individual Therapy</h3>
             <p>
               One-on-one sessions focused on your personal goals, challenges,
-              and growth. We'll work together to develop coping strategies and
-              build resilience.
+              and growth. We'll work together to figure out what you want and
+              how to get there. Some common areas I work with are:
             </p>
             <ul>
               <li>Anxiety and stress management</li>
               <li>Depression treatment</li>
               <li>Trauma recovery</li>
               <li>Life transitions</li>
+              <li>Boundaries</li>
+              <li>Navigating mental load and emotional labor</li>
+              <li>
+                Grief and ambiguous loss (something that did or didn't happen
+                the way you planned or hoped)
+              </li>
             </ul>
           </div>
 
-          <div className="service-card">
+          {/* <div className="service-card">
             <div className="service-icon">👥</div>
             <h3>Couples Counseling</h3>
             <p>
@@ -45,9 +52,9 @@ const Services = () => {
               <li>Trust rebuilding</li>
               <li>Intimacy enhancement</li>
             </ul>
-          </div>
+          </div> */}
 
-          <div className="service-card">
+          {/* <div className="service-card">
             <div className="service-icon">👨‍👩‍👧‍👦</div>
             <h3>Family Therapy</h3>
             <p>
@@ -60,10 +67,10 @@ const Services = () => {
               <li>Family communication</li>
               <li>Behavioral issues</li>
             </ul>
-          </div>
+          </div> */}
 
           <div className="service-card">
-            <div className="service-icon">🧘‍♀️</div>
+            {/* <div className="service-icon">🧘‍♀️</div> */}
             <h3>Mindfulness & Stress Reduction</h3>
             <p>
               Learn evidence-based techniques to manage stress, improve focus,
@@ -77,7 +84,7 @@ const Services = () => {
             </ul>
           </div>
 
-          <div className="service-card">
+          {/* <div className="service-card">
             <div className="service-icon">🎯</div>
             <h3>Life Coaching</h3>
             <p>
@@ -90,10 +97,10 @@ const Services = () => {
               <li>Personal development</li>
               <li>Work-life balance</li>
             </ul>
-          </div>
+          </div> */}
 
           <div className="service-card">
-            <div className="service-icon">📞</div>
+            {/* <div className="service-icon">📞</div> */}
             <h3>Online Therapy</h3>
             <p>
               Convenient and secure virtual sessions that allow you to receive
@@ -117,7 +124,7 @@ const Services = () => {
               <p>Per session</p>
             </div>
           </div>
-          
+
           <div className="insurance-section">
             <h3>Insurance & Payment</h3>
             <p className="insurance-note">
@@ -129,9 +136,7 @@ const Services = () => {
               <li>Lyra</li>
               <li>Out of Network</li>
             </ul>
-            <p className="insurance-note">
-              I also accept HSA/FSA cards.
-            </p>
+            <p className="insurance-note">I also accept HSA/FSA cards.</p>
           </div>
         </div>
 
@@ -151,5 +156,3 @@ const Services = () => {
 };
 
 export default Services;
-
-

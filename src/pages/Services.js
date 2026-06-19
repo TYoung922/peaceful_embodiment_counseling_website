@@ -13,8 +13,8 @@ const Services = () => {
             mental health and personal growth. Each service is tailored to meet
             your individual needs. <br />
             <strong>
-              Appointments available on Mondays and Saturdays. With an in person
-              option on Saturdays.
+              Telehealth appointments available on Mondays and Saturdays. With
+              an in person option on Saturdays.
             </strong>
           </p>
         </div>
